@@ -12,20 +12,20 @@ $("#link_about").click(function() {
    scrollToAnchor('aboutus');
 });
 
-$("#tier2_link").click(function() {
-   scrollToAnchor('t2course');
+$("#elearning_link").click(function() {
+   scrollToAnchor('elearning');
 });
 
-$("#tier3_link").click(function() {
-   scrollToAnchor('t3course');
+$("#video_link").click(function() {
+   scrollToAnchor('video');
 });
 
-$("#sec_tier2_link").click(function() {
-   scrollToAnchor('t2course');
+$("#elearn_sec_link").click(function() {
+   scrollToAnchor('elearning');
 });
 
-$("#sec_tier3_link").click(function() {
-   scrollToAnchor('t3course');
+$("#video_sec_link").click(function() {
+   scrollToAnchor('video');
 });
 
 function scrollupToAnchor(aid){

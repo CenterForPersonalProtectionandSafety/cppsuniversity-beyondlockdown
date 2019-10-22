@@ -41,16 +41,8 @@
                                   <thead>
                                       <tr>
                                           <th>Name</th><th>Email</th>
-                                          <th>T2M1</th>
-                                          <th>T2M2</th>
-                                          <th>T2M3</th>
-                                          <th>T2M4</th>
-                                          <th>T2M5</th>
-                                          <th>T3M1</th>
-                                          <th>T3M2</th>
-                                          <th>T3M3</th>
-                                          <th>T3M4</th>
-                                          <th>T3M5</th>
+                                          <th>E-Learning</th>
+                                          <th>Video</th>
                                       </tr>
                                   </thead>
                                   <tbody>
@@ -61,16 +53,8 @@
                                       <tr>
                                           <td><?=$v1->fname?> <?=$v1->lname?></td>
                                           <td><?=$v1->email?></td>
-                                          <td><?php if($v1->complete_t2m1==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t2m2==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t2m3==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t2m4==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t2m5==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t3m1==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t3m2==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t3m3==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t3m4==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                                          <td><?php if($v1->complete_t3m5==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
+                                          <td><?php if($v1->complete_elearning==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
+                                          <td><?php if($v1->complete_video==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
                                       </tr>
                                       <?php } ?>
                                   </tbody>
