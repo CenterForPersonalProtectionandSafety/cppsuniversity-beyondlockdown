@@ -15,43 +15,32 @@
   $userData = $learners_query->results();
 ?>
 
-<div id="page-wrapper">
-    <div class="container">
-        <!-- Page Heading -->
-        <div class="row">
-            <div class="col-xs-12 col-md-6">
-                <h1>Manage Users</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="alluinfo">&nbsp;</div>
-                <div class="allutable">
-                    <table id="paginate" class='table table-hover table-list-search'>
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Video</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php
-                            //Cycle through users
-                            foreach ($userData as $v1) {
-                            ?>
-                            <tr>
-                                <td><?=$v1->fname?> <?=$v1->lname?></td>
-                                <td><?=$v1->email?></td>
-                                <td><?php if($v1->complete_video==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
-                            </tr>
-                            <?php } ?>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
+
+<div class="container">
+  <h2>Video Course Completed</h2>
+  <?=resultBlock($errors,$successes);?>
+  <hr />
+  <div class="alluinfo">&nbsp;</div>
+  <div class="table-responsive">
+    <table id="paginate" class='table table-hover'>
+      <thead class="thead-light">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Video</th>
+        </tr>
+      </thead>
+      <tbody>
+      <?php foreach ($userData as $v1) { ?>
+        <tr>
+          <td><?=$v1->fname?> <?=$v1->lname?></td>
+          <td><?=$v1->email?></td>
+          <td><?php if($v1->complete_video==0) {?> <p>incomplete</p> <?php } else {?> <p>complete</p> <?php }?></td>
+        </tr>
+      <?php } ?>
+      </tbody>
+    </table>
+  </div>
 </div>
 
 
