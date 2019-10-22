@@ -13,7 +13,7 @@ BL Module
         <div class="front" style="background-image: url('/usersc/images/modules/placeholder.png')">
         <?php } ?>
             <div class="inner">
-                <h2>Module 1</h2>
+                <h2></h2>
                 <label for="card1" class="button" aria-hidden="true">
                     Details
                 </label>
@@ -22,8 +22,8 @@ BL Module
         <div class="back">
             <div class="inner">
                 <div class="description">
-                  <h4>Module 1</h4>
-                  <p>Intro</p>
+                  <h4>Beyond Lockdown</h4>
+                  <p>This is our Beyond Lockdown E-Learning course.</p>
                 </div>
                 <label for="card1" class="button return" aria-hidden="true">
                     <i class="fa fa-arrow-left"></i>
