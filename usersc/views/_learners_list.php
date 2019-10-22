@@ -23,7 +23,7 @@
   <form class="" action="/usersc/export.php" method="post" name="upload_excel" enctype="multipart/form-data">
     <input type="submit" name="Export" class="btn btn-success" value="Export to CSV"/>
   </form>
-  <div class="alluinfo">&nbsp;></div>
+  <div class="alluinfo">&nbsp;</div>
   <div class="table-responsive">
     <table id="paginate" class='table table-hover'>
       <thead class="thead-light">

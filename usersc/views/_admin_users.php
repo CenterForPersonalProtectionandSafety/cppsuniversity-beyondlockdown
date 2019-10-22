@@ -195,7 +195,7 @@ if (!empty($_POST)) {
     <h2>View Users</h2>
     <?=resultBlock($errors,$successes);?>
     <hr />
-    <div class="alluinfo">&nbsp;></div>
+    <div class="alluinfo">&nbsp;</div>
     <div class="table-responsive">
       <table id="paginate" class='table table-hover'>
         <thead class="thead-light">
