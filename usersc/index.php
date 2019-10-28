@@ -30,38 +30,10 @@ if($user->data()->first_login_pass_reset == 0) {
 	      <hr>
 	      <p class="sec-description">CPPS is the leading developer and provider of scalable training and consulting solutions in the U.S. for Workplace Violence Prevention, Active Shooter Response, and International Travel Safety. CPPS has worked together with thousands of organizations large and small.</p>
 	    </div>
-	    <div class="wrapper">
-	      <div class="aboutcard">
-	          <input type="checkbox" class="more" aria-hidden="true">
-	          <div class="content">
-	              <div class="front" style="background-image: url('/usersc/images/aboutus/company.png')">
-	                  <div class="inner">
-	                      <h4>50% of Fortune 100 corporations</h4>
-	                  </div>
-	              </div>
-	          </div>
-	      </div>
-	      <div class="aboutcard">
-	          <input type="checkbox" class="more" aria-hidden="true">
-	          <div class="content">
-	              <div class="front" style="background-image: url('/usersc/images/aboutus/university.png')">
-	                  <div class="inner">
-	                      <h4>1600 colleges and universities</h4>
-	                  </div>
-	              </div>
-	          </div>
-	      </div>
-	      <div class="aboutcard">
-	          <input type="checkbox" class="more" aria-hidden="true">
-	          <div class="content">
-	              <div class="front" style="background-image: url('/usersc/images/aboutus/hospital.png')">
-	                  <div class="inner">
-	                      <h4>2000 hospitals & many non-profit organizations</h4>
-	                  </div>
-	              </div>
-	          </div>
-	      </div>
-	    </div>
+      <?php
+          //Include About Us Cards
+          include $abs_us_root.$us_url_root.'usersc/include/aboutus.php';
+       ?>
 	    <div class="text-center">
 	      <a href="#" id="elearn_sec_link" class="sec-btn btn-md" role="button"><i class="fa fa-arrow-down"></i></a>
 	    </div>
