@@ -35,14 +35,14 @@ html, body {
 .navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
 
 .fixed-top.scrolled {
-  background-color: #343A40 !important;
+  /* background-color: #343A40 !important; */
+  background-color: #2565a3 !important;
   transition: background-color 500ms linear;
 }
 
 .container .dropdown .dropdown-menu a:hover {
   color: #fff;
-  /* background-color: #558B82; */
-  background-color: #2565a3;
+  background-color: #558B82;
 }
 /********************** NAVBAR END **********************/
 
