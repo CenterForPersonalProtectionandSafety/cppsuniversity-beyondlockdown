@@ -109,7 +109,7 @@ html, body {
 .row {
   background-color: #2565a3;
 }
-.container h2 {
+.container h2, .container p{
     color: #fff;
 }
 
