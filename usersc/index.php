@@ -32,7 +32,7 @@ if($user->data()->first_login_pass_reset == 0) {
 	    </div>
       <?php
           //Include About Us Cards
-          include $abs_us_root.$us_url_root.'usersc/include/aboutus.php';
+          include $abs_us_root.$us_url_root.'usersc/includes/aboutus.php';
        ?>
 	    <div class="text-center">
 	      <a href="#" id="elearn_sec_link" class="sec-btn btn-md" role="button"><i class="fa fa-arrow-down"></i></a>
