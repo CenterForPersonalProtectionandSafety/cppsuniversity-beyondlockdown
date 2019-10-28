@@ -103,16 +103,15 @@ html, body {
   padding-top: 75px;
   padding-bottom: 75px;
 }
-/* .row:nth-child(odd) {
-    background-color: #f7f7f7;
-} */
 .row {
-  background-color: #2565a3;
+  background-color: #967d55;
+}
+.row:nth-child(odd) {
+    background-color: #2565a3;
 }
 .container h2, .container p{
     color: #fff;
 }
-
 .sec-btn {
   display: inline-block;
   width: 100px;
