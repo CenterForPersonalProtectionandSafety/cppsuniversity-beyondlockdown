@@ -46,7 +46,7 @@ html, body {
 }
 /********************** NAVBAR END **********************/
 
-/********************** HERO SECTION END **********************/
+/********************** HERO SECTION **********************/
 .hero{
   font-family: 'Cinzel', serif;
   width: 100%;
@@ -56,7 +56,7 @@ html, body {
   align-items: center;
   text-align: center;
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../../../../images/bl_hero_LI.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../../../../images/bl_hero_LI.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -108,6 +108,9 @@ html, body {
 } */
 .row {
   background-color: #2565a3;
+}
+.container h2 {
+    color: #fff;
 }
 
 .sec-btn {
