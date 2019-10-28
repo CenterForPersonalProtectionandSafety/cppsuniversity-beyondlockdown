@@ -21,8 +21,7 @@ html, body {
 
 /********************** NAVBAR **********************/
 .navbar {
-	/* background: #343A40; */
-  background: #2565a3;
+	background: #343A40;
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 	backface-visibility: hidden;
 }
@@ -42,7 +41,8 @@ html, body {
 
 .container .dropdown .dropdown-menu a:hover {
   color: #fff;
-  background-color: #558B82;
+  /* background-color: #558B82; */
+  background: #2565a3;
 }
 /********************** NAVBAR END **********************/
 
