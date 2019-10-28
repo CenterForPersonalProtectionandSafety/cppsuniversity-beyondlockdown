@@ -103,9 +103,13 @@ html, body {
   padding-top: 75px;
   padding-bottom: 75px;
 }
-.row:nth-child(odd) {
+/* .row:nth-child(odd) {
     background-color: #f7f7f7;
+} */
+.row {
+  background-color: #2565a3;
 }
+
 .sec-btn {
   display: inline-block;
   width: 100px;
