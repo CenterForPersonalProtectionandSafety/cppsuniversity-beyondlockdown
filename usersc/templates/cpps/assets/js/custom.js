@@ -1,7 +1,7 @@
-$(document).scroll(function () {
-  var $nav = $(".fixed-top");
-  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-});
+// $(document).scroll(function () {
+//   var $nav = $(".fixed-top");
+//   $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+// });
 
 function scrollToAnchor(aid) {
   var aTag = $("div[id='"+ aid +"']");
@@ -33,11 +33,19 @@ $("#courses_link").click(function() {
    scrollToAnchor('courses');
 });
 
-function scrollupToAnchor(aid){
-  var aTag = $("div[id='"+ aid +"']");
-  $('html,body').animate({scrollTop: 0},'slow');
-}
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 850) {
+        $('#to-top').fadeIn();
+    } else {
+        $('#to-top').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#to-top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
 
-$("#to_top_link").click(function() {
-   scrollupToAnchor('hero-section');
 });
