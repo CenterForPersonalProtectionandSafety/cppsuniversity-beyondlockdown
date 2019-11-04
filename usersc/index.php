@@ -83,7 +83,7 @@ if($user->data()->first_login_pass_reset == 0) {
         <h1 style="color:#fff;">COURSES</h1>
       </div>
     </div>
-    <div class="row row-courses">
+    <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-5">
         <div class="row">

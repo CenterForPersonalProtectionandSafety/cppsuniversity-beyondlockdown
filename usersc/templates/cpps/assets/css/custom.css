@@ -124,14 +124,10 @@ hr.style-one {
 .row-title {
   color: #fff;
   padding-top: 100px;
+  min-height: 95vh;
 }
 .row-title h1 {
   font-size: 50px;
-}
-.row-courses {
-  min-height: 95vh;
-  color: #fff;
-  padding-top: 50px;
 }
 .vert-spacing {
     margin-bottom: 20%;
