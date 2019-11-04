@@ -80,7 +80,7 @@ if($user->data()->first_login_pass_reset == 0) {
   <div id="courses" class="row row-title">
     <div class="container">
       <div class="text-center">
-        <h1 style="color:#fff;">COURSES</h1>
+        <h1 style="color:#fff;">BEYOND LOCKDOWN COURSES</h1>
       </div>
     </div>
     <div class="row">
@@ -88,7 +88,7 @@ if($user->data()->first_login_pass_reset == 0) {
       <div class="col-md-5">
         <div class="row">
           <div class="text-center">
-            <h2 class="mt-5 mb-3">BEYOND LOCKDOWN E-LEARNING</h2>
+            <h2 class="mt-5 mb-3">E-LEARNING</h2>
             <hr class="style-one">
             <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
@@ -100,7 +100,7 @@ if($user->data()->first_login_pass_reset == 0) {
       <div class="col-md-5">
         <div class="row">
           <div class="text-center">
-            <h2 class="mt-5 mb-3">BEYOND LOCKDOWN VIDEO</h2>
+            <h2 class="mt-5 mb-3">VIDEO</h2>
             <hr class="style-one">
             <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
