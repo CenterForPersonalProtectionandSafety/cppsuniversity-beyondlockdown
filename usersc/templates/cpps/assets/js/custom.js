@@ -8,8 +8,12 @@ function scrollToAnchor(aid) {
   $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
 
-$("#link_about").click(function() {
-   scrollToAnchor('aboutus');
+$("#sks_link").click(function() {
+   scrollToAnchor('sks');
+});
+
+$("#about_link").click(function() {
+   scrollToAnchor('about');
 });
 
 $("#elearning_link").click(function() {
@@ -20,13 +24,13 @@ $("#video_link").click(function() {
    scrollToAnchor('video');
 });
 
-$("#elearn_sec_link").click(function() {
-   scrollToAnchor('elearning');
-});
-
-$("#video_sec_link").click(function() {
-   scrollToAnchor('video');
-});
+// $("#elearn_sec_link").click(function() {
+//    scrollToAnchor('elearning');
+// });
+//
+// $("#video_sec_link").click(function() {
+//    scrollToAnchor('video');
+// });
 
 function scrollupToAnchor(aid){
   var aTag = $("div[id='"+ aid +"']");

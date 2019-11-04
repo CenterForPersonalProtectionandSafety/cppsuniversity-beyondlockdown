@@ -113,7 +113,12 @@ hr.style-one {
 /********************** HERO SECTION END **********************/
 
 /********************** ABOUT SEC **********************/
-.row_about {
+.row-sks {
+  min-height: 100vh;
+  color: #fff;
+  padding-top: 100px;
+}
+.row-about {
   min-height: 100vh;
   color: #fff;
   padding-top: 100px;
@@ -133,14 +138,16 @@ hr.style-one {
   background-size: cover;
   min-height: 50vh;
   color: #fff;
+  padding-top: 100px;
 }
 .row_girl {
   background-image: url('../../../../images/bl/about2.jpg');
   background-repeat: no-repeat;
-  background-position: 50% 30%;
+  background-position: 50% 40%;
   background-size: cover;
   min-height: 50vh;
   color: #fff;
+  padding-top: 100px;
 }
 .gold {
   color: #D1AC74;
@@ -183,6 +190,12 @@ hr.style-one {
 .sec-description{
   font-size: 1em;
   text-align: center;
+}
+.row-elearning{
+  color: #fff;
+}
+.row-video{
+  color: #fff;
 }
 /********************** SECTIONS END **********************/
 
