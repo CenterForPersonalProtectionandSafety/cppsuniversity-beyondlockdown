@@ -13,16 +13,16 @@
 					<ul class="navbar-nav ml-auto ">
 
 						<li class="nav-item">
-							<a id="sks_nav" class="nav-link" href="#">Background</a>
+							<a id="sks_nav" class="nav-link" href="#"> Background</a>
 						</li>
 						<li class="nav-item">
-							<a id="about_nav" class="nav-link" href="#">About</a>
+							<a id="about_nav" class="nav-link" href="#"> About</a>
 						</li>
 						<li class="nav-item">
-							<a id="courses_nav" class="nav-link" href="#">Courses</a>
+							<a id="courses_nav" class="nav-link" href="#"> Courses</a>
 						</li>
 						<li class="nav-item navbar-right dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Options</a>
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <?php echo echousername($user->data()->id);?></a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 								<?php if (checkMenu(2,$user->data()->id)) {  //Links for permission level 2 (Superuser) ?>
@@ -36,7 +36,7 @@
 									<a class="dropdown-item" href="<?=$us_url_root?>usersc/client_admin.php?view=learner"><i class="fa fa-file-text"></i> Learners List</a>
 									<div class="dropdown-divider"></div>
 								<?php } // if user is logged in ?>
-									<a class="dropdown-item" href="<?=$us_url_root?>usersc/user_settings.php"><i class="fa fa-user"></i> User</a>
+									<a class="dropdown-item" href="<?=$us_url_root?>usersc/user_settings.php"><i class="fa fa-user"></i> User Settings</a>
 									<a class="dropdown-item" href="<?=$us_url_root?>users/logout.php"><i class="fa fa-power-off"></i> Logout</a>
 							</div>
 						</li>
