@@ -7,7 +7,20 @@ function scrollToAnchor(aid) {
   var aTag = $("div[id='"+ aid +"']");
   $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
+// Navbar button scroll
+$("#sks_nav").click(function() {
+   scrollToAnchor('sks');
+});
 
+$("#about_nav").click(function() {
+   scrollToAnchor('about');
+});
+
+$("#courses_nav").click(function() {
+   scrollToAnchor('courses');
+});
+
+// Home page button scroll
 $("#sks_link").click(function() {
    scrollToAnchor('sks');
 });
