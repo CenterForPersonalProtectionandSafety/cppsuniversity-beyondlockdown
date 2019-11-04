@@ -17,10 +17,9 @@ if($user->data()->first_login_pass_reset == 0) {
      <h3>LOCKDOWN</h3>
      <hr class="style-one">
      <p class="header-text">Preventing and Responding to Extreme School Violence</p>
-     <a href="#" id="sks_link" class="btn btn-md" role="button">The Problem</a>
+     <a href="#" id="sks_link" class="btn btn-md" role="button">Background</a>
 	   <a href="#" id="about_link" class="btn btn-md" role="button">About Us</a>
-     <a href="#" id="elearning_link" class="btn btn-md" role="button">E-Learning</a>
-  	 <a href="#" id="video_link" class="btn btn-md" role="button">Video</a>
+     <a href="#" id="courses_link" class="btn btn-md" role="button">Courses</a>
 	  </div>
 	</header>
 
@@ -57,47 +56,9 @@ if($user->data()->first_login_pass_reset == 0) {
     </div>
   </div>
 
-  <!-- BL E-Learning Section-->
-	<div id="elearning" class="row row-elearning">
-	  <div class="col-xl custom-col">
-	    <div class="text-center">
-	      <h2 class="display-4 text-center mt-5 mb-3">BEYOND LOCKDOWN E-LEARNING</h2>
-	      <hr class="style-one">
-	      <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	    </div>
-	    <div class="wrapper">
-	      <?php
-	          // -- card_flip
-	          //Include BL E-Learning
-	          include $abs_us_root.$us_url_root.'courses/ELearning/cards/ELearning_Card.php';
-
-	       ?>
-	    </div>
-	  </div>
-	</div>
-
-	<!-- BL Video Section-->
-	<div id="video" class="row row-video">
-	  <div class="col-xl custom-col">
-	    <div class="text-center">
-	      <h2 class="display-4 text-center mt-5 mb-3">BEYOND LOCKDOWN VIDEO</h2>
-	      <hr class="style-one">
-	      <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	    </div>
-	    <div class="wrapper">
-	      <?php
-	          // -- card_flip
-	          //Include BL Video
-	          include $abs_us_root.$us_url_root.'courses/Video/cards/Video_Card.php';
-
-	       ?>
-	    </div>
-	  </div>
-	</div>
-
   <!-- About Us Section -->
   <div id="about" class="row row-about">
-    <div class="row row_car">
+    <div class="row row-car">
       <div class="col-md-1"></div>
       <div class="col-md-5">
         <h2 class="gold">ABOUT</h2>
@@ -105,7 +66,7 @@ if($user->data()->first_login_pass_reset == 0) {
       </div>
     </div>
 
-    <div class="row row_girl">
+    <div class="row row-girl">
       <div class="col-md-5 offset-md-6">
         <h2 class="gold">FBI National Citizens Academy Alumni Association Fully Endorsed</h2>
         <p>“The purpose of this letter is to provide a full endorsement of your newly developed video: “Beyond Lockdown – Preventing and Responding to Extreme School Violence.” Our National Board found the video to be professionally filmed using believable student actors and a very credible storyline. The FBINCAAA is proud to provide this endorsement and is willing to assist in its distribution to as many schools in all our Fifty (50) States, as well as in Puerto Rico and Guam.”</p>
@@ -114,12 +75,38 @@ if($user->data()->first_login_pass_reset == 0) {
     </div>
   </div>
 
+  <!-- Courses Section -->
+  <div id="courses" class="row row-courses">
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+      <div class="row">
+        <div class="text-center">
+          <h2 class="mt-5 mb-3">BEYOND LOCKDOWN E-LEARNING</h2>
+          <hr class="style-one">
+          <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <?php include $abs_us_root.$us_url_root.'courses/ELearning/cards/ELearning_Card.php'; ?>
+      </div>
+    </div>
 
+    <div class="col-md-5">
+      <div class="row">
+        <div class="text-center">
+          <h2 class="mt-5 mb-3">BEYOND LOCKDOWN VIDEO</h2>
+          <hr class="style-one">
+          <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <?php include $abs_us_root.$us_url_root.'courses/Video/cards/Video_Card.php'; ?>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+	</div>
 
-
-  <!-- <div class="text-center">
-    <a href="#" id="to_top_link" class="sec-btn btn-md" role="button"><i class="fa fa-arrow-up"></i></a>
-  </div> -->
+<!-- <a href="#" id="to_top_link" class="sec-btn btn-md" role="button"><i class="fa fa-arrow-up"></i></a> -->
 
 <?php  languageSwitcher();?>
 <!-- Place any per-page javascript here -->
