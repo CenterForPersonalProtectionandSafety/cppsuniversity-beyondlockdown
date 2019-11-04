@@ -42,10 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
 
-.fixed-top.scrolled {
-  /* background-color: #343A40 !important; */
+.fixed-top {
   background-color: #2565a3 !important;
-  transition: background-color 500ms linear;
 }
 
 .container .dropdown .dropdown-menu a:hover {
@@ -112,7 +110,7 @@ hr.style-one {
 }
 /********************** HERO SECTION END **********************/
 
-/********************** ABOUT SEC **********************/
+/********************** SECTIONS **********************/
 .row-sks {
   min-height: 100vh;
   color: #fff;
@@ -126,6 +124,9 @@ hr.style-one {
 .row-title {
   color: #fff;
   padding-top: 100px;
+}
+.row-title h1 {
+  font-size: 50px;
 }
 .row-courses {
   min-height: 95vh;
@@ -163,9 +164,6 @@ hr.style-one {
   font-size: 36px;
   padding-bottom: 5%;
 }
-/********************** ABOUT SEC END **********************/
-
-/********************** SECTIONS **********************/
 .custom-col {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -201,6 +199,29 @@ hr.style-one {
   text-align: center;
 }
 /********************** SECTIONS END **********************/
+
+/********************** SCROLL BUTTON **********************/
+#to-top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    bottom: 50px;
+    right: 25px;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #fff;
+    color: #2565a3;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    position: fixed;
+}
+#to-top:hover {
+    -webkit-transform: scale(1.03);
+    transition: all 0.8s;
+}
+/********************** SCROLL BUTTON END **********************/
 
 /********************** VIEW PAGES **********************/
 .view-page-logo {
