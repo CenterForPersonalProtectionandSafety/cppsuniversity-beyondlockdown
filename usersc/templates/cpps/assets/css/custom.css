@@ -123,10 +123,14 @@ hr.style-one {
   color: #fff;
   padding-top: 100px;
 }
+.row-title {
+  color: #fff;
+  padding-top: 100px;
+}
 .row-courses {
   min-height: 95vh;
   color: #fff;
-  padding-top: 175px;
+  padding-top: 50px;
 }
 .vert-spacing {
     margin-bottom: 20%;

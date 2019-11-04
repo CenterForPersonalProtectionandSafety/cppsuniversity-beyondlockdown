@@ -76,7 +76,15 @@ if($user->data()->first_login_pass_reset == 0) {
   </div>
 
   <!-- Courses Section -->
-  <div id="courses" class="row row-courses">
+  <div id="courses" class="row row-title">
+    <div class="container">
+      <div class="text-center">
+        <h1 style="color:#fff;">COURSES</h1>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row row-courses">
     <div class="col-md-1"></div>
     <div class="col-md-5">
       <div class="row">
