@@ -9,6 +9,7 @@ if($user->data()->first_login_pass_reset == 0) {
 }
 
 ?>
+  <a id="to-top" title="Back to top" href="#"><i class="fa fa-arrow-up"></i></a>
 
 	<!-- Hero Banner Welcome Section -->
 	<header id="hero-section"class="jumbotron jumbotron-fluid hero">
@@ -23,7 +24,7 @@ if($user->data()->first_login_pass_reset == 0) {
 	  </div>
 	</header>
 
-	<!-- Our school, kids, solution section -->
+  <!-- Our school, kids, solution section -->
   <div id="sks" class="row row-sks">
     <div class="col-md-2"></div>
 
@@ -82,39 +83,36 @@ if($user->data()->first_login_pass_reset == 0) {
         <h1 style="color:#fff;">COURSES</h1>
       </div>
     </div>
-  </div>
-  
-  <div class="row row-courses">
-    <div class="col-md-1"></div>
-    <div class="col-md-5">
-      <div class="row">
-        <div class="text-center">
-          <h2 class="mt-5 mb-3">BEYOND LOCKDOWN E-LEARNING</h2>
-          <hr class="style-one">
-          <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="row row-courses">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <div class="row">
+          <div class="text-center">
+            <h2 class="mt-5 mb-3">BEYOND LOCKDOWN E-LEARNING</h2>
+            <hr class="style-one">
+            <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
         </div>
-      </div>
-      <div class="wrapper">
+        <div class="wrapper">
         <?php include $abs_us_root.$us_url_root.'courses/ELearning/cards/ELearning_Card.php'; ?>
-      </div>
-    </div>
-
-    <div class="col-md-5">
-      <div class="row">
-        <div class="text-center">
-          <h2 class="mt-5 mb-3">BEYOND LOCKDOWN VIDEO</h2>
-          <hr class="style-one">
-          <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
-      <div class="wrapper">
+      <div class="col-md-5">
+        <div class="row">
+          <div class="text-center">
+            <h2 class="mt-5 mb-3">BEYOND LOCKDOWN VIDEO</h2>
+            <hr class="style-one">
+            <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="wrapper">
         <?php include $abs_us_root.$us_url_root.'courses/Video/cards/Video_Card.php'; ?>
+        </div>
       </div>
+      <div class="col-md-1"></div>
     </div>
-    <div class="col-md-1"></div>
-	</div>
+  </div>
 
-<!-- <a href="#" id="to_top_link" class="sec-btn btn-md" role="button"><i class="fa fa-arrow-up"></i></a> -->
 
 <?php  languageSwitcher();?>
 <!-- Place any per-page javascript here -->
