@@ -123,6 +123,11 @@ hr.style-one {
   color: #fff;
   padding-top: 100px;
 }
+.row-courses {
+  min-height: 95vh;
+  color: #fff;
+  padding-top: 175px;
+}
 .vert-spacing {
     margin-bottom: 20%;
 }
@@ -131,7 +136,7 @@ hr.style-one {
   width: 600px;
   padding-bottom: 15px;
 }
-.row_car {
+.row-car {
   background-image: url('../../../../images/bl/about.jpg');
   background-repeat: no-repeat;
   background-position: 50% 30%;
@@ -140,7 +145,7 @@ hr.style-one {
   color: #fff;
   padding-top: 100px;
 }
-.row_girl {
+.row-girl {
   background-image: url('../../../../images/bl/about2.jpg');
   background-repeat: no-repeat;
   background-position: 50% 40%;
@@ -190,12 +195,6 @@ hr.style-one {
 .sec-description{
   font-size: 1em;
   text-align: center;
-}
-.row-elearning{
-  color: #fff;
-}
-.row-video{
-  color: #fff;
 }
 /********************** SECTIONS END **********************/
 
