@@ -167,18 +167,18 @@ hr.style-one {
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #343A40;
-  text-decoration: none;
-  font-size: 1.5em;
-  border: 3px solid #343A40;
-  border-radius: 20px;
- }
-.sec-btn:hover {
-  background-color: #343A40;
-  color:white;
+  color: #fff;
   text-decoration: none;
   font-size: 1.5em;
   border: 3px solid #fff;
+  border-radius: 20px;
+ }
+.sec-btn:hover {
+  background-color: #fff;
+  color: #2565a3;
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 3px solid #2565a3;
 }
 .sec-description{
   font-size: 1em;

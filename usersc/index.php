@@ -79,7 +79,7 @@ if($user->data()->first_login_pass_reset == 0) {
 	<!-- BL E-Learning Section-->
 	<div id="elearning" class="row">
 	  <div class="col-xl custom-col">
-	    <div class="">
+	    <div class="text-center">
 	      <h2 class="display-4 text-center mt-5 mb-3">BEYOND LOCKDOWN E-LEARNING</h2>
 	      <hr class="style-one">
 	      <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -101,7 +101,7 @@ if($user->data()->first_login_pass_reset == 0) {
 	<!-- BL Video Section-->
 	<div id="video" class="row">
 	  <div class="col-xl custom-col">
-	    <div class="">
+	    <div class="text-center">
 	      <h2 class="display-4 text-center mt-5 mb-3">BEYOND LOCKDOWN VIDEO</h2>
 	      <hr class="style-one">
 	      <p class="sec-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
