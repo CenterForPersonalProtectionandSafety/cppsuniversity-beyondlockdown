@@ -193,6 +193,8 @@ hr.style-one {
 .sec-description{
   font-size: 1em;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /********************** SECTIONS END **********************/
 
