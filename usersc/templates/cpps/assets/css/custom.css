@@ -114,29 +114,38 @@ hr.style-one {
 
 /********************** ABOUT SEC **********************/
 .row_about {
-  background-color: #2565a3;
   min-height: 100vh;
   color: #fff;
+  padding-top: 100px;
 }
-
-.row_about_1 {
+.vert-spacing {
+    margin-bottom: 20%;
+}
+.RHF {
+  height: 250px;
+  width: 600px;
+  padding-bottom: 15px;
+}
+.row_car {
   background-image: url('../../../../images/bl/about.jpg');
-}
-
-.row_about_2 {
-  background-image: url('../../../../images/bl/about2.jpg');
-}
-
-.row_about_custom {
   background-repeat: no-repeat;
   background-position: 50% 30%;
   background-size: cover;
   min-height: 50vh;
   color: #fff;
 }
-
-.row_about_custom h2 {
-  color: #d1ac74;
+.row_girl {
+  background-image: url('../../../../images/bl/about2.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  background-size: cover;
+  min-height: 50vh;
+  color: #fff;
+}
+.gold {
+  color: #D1AC74;
+  font-size: 36px;
+  padding-bottom: 5%;
 }
 /********************** ABOUT SEC END **********************/
 
