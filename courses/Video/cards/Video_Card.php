@@ -7,13 +7,13 @@ BL Module
     <input type="checkbox" id="card2" class="more" aria-hidden="true">
     <div class="content">
         <?php if ($user->data()->complete_t2m1 == 0){ ?>
-        <div class="front" style="background-image: url('/usersc/images/modules/placeholder.png')">
+        <div class="front" style="background-image: url('/usersc/images/modules/video.png')">
         <?php } ?>
         <?php if ($user->data()->complete_t2m1 == 1){ ?>
-        <div class="front" style="background-image: url('/usersc/images/modules/placeholder.png')">
+        <div class="front" style="background-image: url('/usersc/images/modules/video_complete.png')">
         <?php } ?>
             <div class="inner">
-                <h2></h2>
+                <h2>VIDEO</h2>
                 <label for="card2" class="button" aria-hidden="true">
                     Details
                 </label>
