@@ -16,21 +16,9 @@ $("#about_link").click(function() {
    scrollToAnchor('about');
 });
 
-$("#elearning_link").click(function() {
-   scrollToAnchor('elearning');
+$("#courses_link").click(function() {
+   scrollToAnchor('courses');
 });
-
-$("#video_link").click(function() {
-   scrollToAnchor('video');
-});
-
-// $("#elearn_sec_link").click(function() {
-//    scrollToAnchor('elearning');
-// });
-//
-// $("#video_sec_link").click(function() {
-//    scrollToAnchor('video');
-// });
 
 function scrollupToAnchor(aid){
   var aTag = $("div[id='"+ aid +"']");
