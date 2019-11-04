@@ -13,16 +13,16 @@
 					<ul class="navbar-nav ml-auto ">
 
 						<li class="nav-item">
-							<a id="sks_nav" class="nav-link" href="#"> Background</a>
+							<a id="sks_nav" class="nav-link" href="#"> BACKGROUND</a>
 						</li>
 						<li class="nav-item">
-							<a id="about_nav" class="nav-link" href="#"> About</a>
+							<a id="about_nav" class="nav-link" href="#"> ABOUT</a>
 						</li>
 						<li class="nav-item">
-							<a id="courses_nav" class="nav-link" href="#"> Courses</a>
+							<a id="courses_nav" class="nav-link" href="#"> COURSES</a>
 						</li>
 						<li class="nav-item navbar-right dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <?php echo echousername($user->data()->id);?></a>
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <?php echo strtoupper(echousername($user->data()->id));?></a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 								<?php if (checkMenu(2,$user->data()->id)) {  //Links for permission level 2 (Superuser) ?>
