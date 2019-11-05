@@ -116,6 +116,16 @@ hr.style-one {
   color: #fff;
   padding-top: 100px;
 }
+@media only screen and (max-width: 400px) {
+  .row-sks {
+    min-height: 100vh;
+    padding-top: 100px;
+    color: #fff;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+}
 .row-about {
   min-height: 100vh;
   color: #fff;
@@ -138,7 +148,7 @@ hr.style-one {
   padding-bottom: 15px;
 }
 .row-car {
-  background-image: url('../../../../images/bl/about.jpg');
+  background-image: url('../../../../images/bl/about-car.jpg');
   background-repeat: no-repeat;
   background-position: 50% 30%;
   background-size: cover;
@@ -147,13 +157,34 @@ hr.style-one {
   padding-top: 100px;
 }
 .row-girl {
-  background-image: url('../../../../images/bl/about2.jpg');
+  background-image: url('../../../../images/bl/about-girl.jpg');
   background-repeat: no-repeat;
   background-position: 50% 40%;
   background-size: cover;
   min-height: 50vh;
   color: #fff;
   padding-top: 100px;
+}
+@media only screen and (max-width: 400px) {
+  .row-about{
+    min-height: 100vh;
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .row-car {
+    background-image: linear-gradient(rgba(37, 101, 163, .6), rgba(37, 101, 163, .6)), url('../../../../images/bl/about-car.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: 50%;
+  }
+  .row-girl{
+    background-image: linear-gradient(rgba(37, 101, 163, .6), rgba(37, 101, 163, .6)), url('../../../../images/bl/about-girl.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-position: 30%;
+  }
 }
 .gold {
   color: #D1AC74;
@@ -195,6 +226,13 @@ hr.style-one {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media only screen and (max-width: 400px) {
+  .sec-description {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 /********************** SECTIONS END **********************/
 
