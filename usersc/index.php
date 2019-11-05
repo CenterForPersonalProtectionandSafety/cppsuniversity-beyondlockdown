@@ -46,13 +46,13 @@ if($user->data()->first_login_pass_reset == 0) {
     <!-- Right Column w/ Images -->
     <div class="col-md-6">
       <div class="row ">
-        <img src="images/bl/run.png" alt="Run!" class="RHF">
+        <img src="images/bl/run_text.png" alt="Run!" class="RHF">
       </div>
       <div class="row ">
-        <img src="images/bl/hide.png" alt="Hide!" class="RHF">
+        <img src="images/bl/hide_text.png" alt="Hide!" class="RHF">
       </div>
       <div class="row ">
-        <img src="images/bl/fight.png" alt="Fight!" class="RHF">
+        <img src="images/bl/fight_text.png" alt="Fight!" class="RHF">
       </div>
     </div>
   </div>
